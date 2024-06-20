@@ -5,6 +5,8 @@ import { Spotlight } from './ui/Spotlight'
 import { TextGenerateEffect } from './ui/TextGenerateEffect'
 
 const Main = () => {
+  
+  
   return (
     <div className="pb-20 pt-36">
       {/* Spotlight */}

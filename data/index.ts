@@ -8,9 +8,9 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada. Lectus quam id leo in. Pretium aenean pharetra magna ac placerat. Leo in vitae turpis massa sed elementum tempus.",
-    description: "",
-    className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
+    title: "Lorem ipsum dolor sit amet.",
+    description: "ID1 Description",
+    className: "m-2 lg:col-span-2 md:col-span-6 md:row-span-2",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
     img: "/b1.svg",
@@ -18,9 +18,9 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada. Lectus quam id leo in. Pretium aenean pharetra magna ac placerat. Leo in vitae turpis massa sed elementum tempus.",
-    description: "",
-    className: "lg:col-span-2 md:col-span-3 md:row-span-2",
+    title: "Lorem ipsum dolor sit amet.",
+    description: "ID2 Description",
+    className: "m-2 lg:col-span-1 md:col-span-3 md:row-span-1",
     imgClassName: "",
     titleClassName: "justify-start",
     img: "",
@@ -28,9 +28,9 @@ export const gridItems = [
   },
   {
     id: 3,
-    title: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada. Lectus quam id leo in. Pretium aenean pharetra magna ac placerat. Leo in vitae turpis massa sed elementum tempus.",
+    title: "Tech Stack",
     description: "",
-    className: "lg:col-span-2 md:col-span-3 md:row-span-2",
+    className: "m-2 lg:col-span-1 md:col-span-3 md:row-span-1",
     imgClassName: "",
     titleClassName: "justify-center",
     img: "",
@@ -38,20 +38,19 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada. Lectus quam id leo in. Pretium aenean pharetra magna ac placerat. Leo in vitae turpis massa sed elementum tempus.",
-    description: "",
-    className: "lg:col-span-2 md:col-span-3 md:row-span-1",
+    title: "Lorem ipsum dolor sit amet.",
+    description: "ID4 Description",
+    className: "m-2 lg:col-span-1 md:col-span-3 md:row-span-1",
     imgClassName: "",
     titleClassName: "justify-start",
     img: "/grid.svg",
     spareImg: "/b4.svg",
   },
-
   {
     id: 5,
-    title: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada. Lectus quam id leo in. Pretium aenean pharetra magna ac placerat. Leo in vitae turpis massa sed elementum tempus.",
-    description: "The Inside Scoop",
-    className: "md:col-span-3 md:row-span-2",
+    title: "Lorem ipsum dolor sit amet.",
+    description: "ID5 Description",
+    className: "m-2 md:col-span-2 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
     img: "/b5.svg",
@@ -59,9 +58,9 @@ export const gridItems = [
   },
   {
     id: 6,
-    title: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada. Lectus quam id leo in. Pretium aenean pharetra magna ac placerat. Leo in vitae turpis massa sed elementum tempus.",
-    description: "",
-    className: "lg:col-span-2 md:col-span-3 md:row-span-1",
+    title: "Lorem ipsum dolor sit amet.",
+    description: "ID6 Description",
+    className: "m-2 lg:col-span-1 md:col-span-3 md:row-span-1",
     imgClassName: "",
     titleClassName: "justify-center md:max-w-full max-w-60 text-center",
     img: "",
@@ -72,7 +71,7 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada. Lectus quam id leo in. Pretium aenean pharetra magna ac placerat. Leo in vitae turpis massa sed elementum tempus.",
+    title: "Lorem ipsum dolor sit amet.",
     des: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     img: "/p1.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
@@ -80,7 +79,7 @@ export const projects = [
   },
   {
     id: 2,
-    title: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada. Lectus quam id leo in. Pretium aenean pharetra magna ac placerat. Leo in vitae turpis massa sed elementum tempus.",
+    title: "Lorem ipsum dolor sit amet.",
     des: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     img: "/p2.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
@@ -88,7 +87,7 @@ export const projects = [
   },
   {
     id: 3,
-    title: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada. Lectus quam id leo in. Pretium aenean pharetra magna ac placerat. Leo in vitae turpis massa sed elementum tempus.",
+    title: "Lorem ipsum dolor sit amet.",
     des: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     img: "/p3.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
@@ -96,7 +95,7 @@ export const projects = [
   },
   {
     id: 4,
-    title: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada. Lectus quam id leo in. Pretium aenean pharetra magna ac placerat. Leo in vitae turpis massa sed elementum tempus.",
+    title: "Lorem ipsum dolor sit amet.",
     des: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     img: "/p4.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
