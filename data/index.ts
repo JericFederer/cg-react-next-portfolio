@@ -28,8 +28,8 @@ export const gridItems = [
   },
   {
     id: 3,
-    title: "Tech Stack",
-    description: "",
+    title: "My tech stack",
+    description: "I constantly try to improve",
     className: "m-2 lg:col-span-1 md:col-span-3 md:row-span-1",
     imgClassName: "",
     titleClassName: "justify-center",
@@ -58,8 +58,8 @@ export const gridItems = [
   },
   {
     id: 6,
-    title: "Lorem ipsum dolor sit amet.",
-    description: "ID6 Description",
+    title: "Do you want to start a project together?",
+    description: "",
     className: "m-2 lg:col-span-1 md:col-span-3 md:row-span-1",
     imgClassName: "",
     titleClassName: "justify-center md:max-w-full max-w-60 text-center",

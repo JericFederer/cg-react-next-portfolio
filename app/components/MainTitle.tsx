@@ -29,7 +29,13 @@ const Main = () => {
 
           <TextGenerateEffect
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
-            words="A Portfolio powered by React and NextJS (TypeScript)"
+            words="Creative Chronicle Portfolio"
+          />
+
+          <TextGenerateEffect
+            className="text-center text-[40px] md:text-5xl lg:text-6xl -mt-10"
+            words="React and NextJS (TypeScript)"
+            color="purple"
           />
 
           <p className='text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl'>

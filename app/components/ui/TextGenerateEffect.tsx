@@ -6,9 +6,11 @@ import { cn } from "@/utils/cn";
 export const TextGenerateEffect = ({
   words,
   className,
+  color
 }: {
   words: string;
   className?: string;
+  color?: string;
 }) => {
   const [scope, animate] = useAnimate();
   let wordsArray = words.split(" ");
@@ -33,7 +35,7 @@ export const TextGenerateEffect = ({
             <motion.span
               key={word + idx}
               className={`
-                ${idx > 3 ? 'text-purple' : 'dark:text-white text-black'}
+                ${color === 'purple' ? 'text-purple' : 'dark:text-white text-black'} 
                 opacity-0
               `}
             >
