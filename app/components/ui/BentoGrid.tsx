@@ -67,7 +67,7 @@ export const BentoGridItem = ({
         backgroundColor: "linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)",
       }}
     >
-      <div className={ `${id === 6 && "flex justify-center items-center"} h-full` }>
+      <div className={ `${id === 6 && "flex p-10 justify-center items-center"} h-full` }>
         <div className="w-full h-full absolute">
           { 
             img && <img
@@ -101,7 +101,7 @@ export const BentoGridItem = ({
             { description }
           </div>
 
-          <div className="pb-4 pl-4 font-sans font-bold text-lg lg:text-3xl max-w-96 z-10">
+          <div className={ `${id === 6 ? "pb-0 pl-0" : "pb-4 pl-4"} font-sans font-bold text-sm sm:text-base lg:text-lg xl:text-3xl max-w-96 z-10` }>
             { title }
           </div>
         
@@ -151,7 +151,7 @@ export const BentoGridItem = ({
           {
             id === 6 && (
               <div className="mt-5 relative">
-                <div className={ `absolute -bottom-5 right-0 ${copied ? "block" : "block"}` }>
+                <div className={ `absolute -bottom-10 right-0 ${copied ? "block" : "block"}` }>
                   <Lottie options={{
                     loop: copied,
                     autoplay: copied,
@@ -160,16 +160,15 @@ export const BentoGridItem = ({
                       preserveAspectRatio: "xMidyMid slice"
                     }
                   }}/>
-                </div>
-                
-                <AceUIButton
-                  title={ copied ? "Email is Copied!" : "Copy my email address" }
-                  icon={ <CgPiano /> }
-                  position="left"
-                  otherClasses="!bg-[#161a31] !-mt-5"
-                  handleClick={ handleCopy }
-                />
 
+                  <AceUIButton
+                    title={ copied ? "Email is Copied!" : "Copy my email address" }
+                    icon={ <CgPiano /> }
+                    position="left"
+                    otherClasses="!bg-[#161a31] lg:relative" 
+                    handleClick={ handleCopy }
+                  />
+                </div>
               </div>
             )
           }
