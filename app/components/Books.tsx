@@ -6,7 +6,7 @@ import { books } from '@/data'
 const Books = () => {
   return (
     <div>
-      <div className="pt-12 pb-12" id="books">
+      <div className="pt-12 sm:pb-12" id="books">
         <h1 className="heading px-10 mb-8 sm:mb-10">
           Some of the books I read that gave me a boost in {" "}
           <span className="text-purple">work and life</span>
