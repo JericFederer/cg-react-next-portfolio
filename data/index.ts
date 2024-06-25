@@ -20,7 +20,7 @@ export const gridItems = [
   {
     id: 2,
     title: "Coding and Composing",
-    description: "I aim to contribute to the world through",
+    description: "Aiming to contribute to the world through",
     className: "m-2 lg:col-span-1 md:col-span-3 md:row-span-1",
     imgClassName: "",
     titleClassName: "justify-start",
@@ -39,19 +39,19 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "I am a Web/Mobile developer, music producer, composer and pianist.",
-    description: "",
+    title: "I intend to integrate my music with coding to create my own products",
+    description: "I am a Web/Mobile developer, music producer, composer and pianist",
     className: "m-2 lg:col-span-1 md:col-span-3 md:row-span-1",
     // imgClassName: "mt-[170px] ml-[100px] rounded-lg border border-white",
-    imgClassName: "h-full w-full opacity-35",
+    imgClassName: "h-full w-full opacity-25",
     titleClassName: "justify-start",
     img: "/piano4.png",
     spareImg: "/grid.svg",
   },
   {
     id: 5,
-    title: "Web and mobile technologies such as MERN stack as well as Next JS",
-    description: "I aim to build my own product using",
+    title: "Web and mobile technologies such as MERN stack and Next JS",
+    description: "Working towards building products that will benefit the society using",
     className: "m-2 md:-mr-2 lg:mr-0.5 md:col-span-2 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -105,25 +105,50 @@ export const projects = [
   },
 ];
 
-export const testimonials = [
+export const books = [
   {
-    quote:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    name: "Noctis Lucis Caelum",
-    title: "Prince of Lucis",
+    quote: `The mind guides our footsteps as we progress along the pathway of life. Purity of mind leads inevitably to purity of life, to the precious love and understanding that should control our everyday acts and attitudes towards friends and foes.`,
+    name: "James Allen",
+    title: "As a Man Thinketh",
+    img: "/book-as-a-man-thinketh.png"
   },
   {
-    quote:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    name: "Lady Lunafreya",
-    title: "Oracle",
+    quote: `The Stoic writings of the philosopher Seneca offer powerful insights into the art of living, the importance of reason and morality, and continue to provide profound guidance to many through their eloquence, lucidity and timeless wisdom.`,
+    name: "Seneca",
+    title: "On The Shortness of Life",
+    img: "/book-on-the-shortness-of-life.png"
   },
   {
-    quote:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    name: "Regis Lucis Caelum",
-    title: "King of Lucis",
+    quote: `“The impediment to action advances action. What stands in the way becomes the way.” — Marcus Aurelius. We are stuck, stymied, frustrated. But it needn’t be this way. Faced with impossible situations, they found the astounding triumphs we all seek.`,
+    name: "Ryan Holiday",
+    title: "The Obstacle is the Way",
+    img: "/book-the-obstacle-is-the-way.png"
   },
+  {
+    quote: `A beautifully packaged daily devotional of Stoic wisdom, featuring new translations of the most celebrated Stoics with historical context and practical tips from bestselling author Ryan Holiday.`,
+    name: "Ryan Holiday",
+    title: "The Daily Stoic",
+    img: "/book-the-daily-stoic.png"
+  },
+  {
+    quote: `By dipping into this little book of simple Zen Buddhist sayings, you can calm your anxiety and return serenity to your soul. `,
+    name: "Shinsuke Hosokawa",
+    title: "Zen Wisdom for the Anxious",
+    img: "/book-zen-wisdom.png"
+  },
+  {
+    quote: `What would be possible if you followed through on your best intentions? What could you accomplish if you could stay focused and overcome distractions? What if you had the power to become "indistractable"?  `,
+    name: "Nir Eyal",
+    title: "Indistractable",
+    img: "/book-indistractable.png"
+  },
+  {
+    quote: `Intimate in scale yet epic in scope, Upgrade is an intricately plotted, lightning-fast tale that charts one man’s thrilling transformation, even as it asks us to ponder the limits of our humanity—and our boundless potential.`,
+    name: "Blake Crouch",
+    title: "Upgrade",
+    img: "/book-upgrade.png"
+  },
+  
 ];
 
 export const companies = [

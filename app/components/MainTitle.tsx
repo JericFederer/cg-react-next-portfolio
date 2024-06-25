@@ -40,7 +40,7 @@ const Main = () => {
             Hi, I&apos;m Jeric, a Web/Mobile Developer based in Tokyo, Japan
           </p>
 
-          <a href="#about">
+          <a href="#projects">
             <AceUIButton
               title={ "Here are some of my works" }
               icon={ <CgPiano /> }
