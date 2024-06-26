@@ -96,13 +96,13 @@ export const InfiniteMovingCards = ({
             }}
             key={idx}
           >
-            <blockquote className="h-[100%] m-1">
+            <blockquote className="h-[100%] m-1 flex flex-col justify-between">
               <div
                 aria-hidden="true"
                 className="user-select-none -z-1 pointer-events-none absolute -left-0.5 -top-0.5 h-[calc(100%_+_4px)] w-[calc(100%_+_4px)]"
               ></div>
              
-              <div className="flex flex-col justify-between h-[100%] m-2">
+              <div className="flex flex-col justify-start h-[100%] m-2">
 
                 <div className="flex justify-center items-center">
                   <img src={ item.img } alt="book" className="w-[150px] sm:w-[180px] h-[180px] h-[220px] sm:h-[250px]"/>
@@ -121,11 +121,11 @@ export const InfiniteMovingCards = ({
                   </span>
                 </div>
 
-                <span className="flex justify-end items-end text-sm leading-[1.6] text-white font-bold">
+              </div>
+
+              <span className="flex justify-end items-end text-sm leading-[1.6] text-white font-bold">
                   Author: {item.name}
                 </span>
-
-              </div>
 
             </blockquote>
           </li>

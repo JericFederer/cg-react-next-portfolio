@@ -113,6 +113,12 @@ export const books = [
     img: "/book-as-a-man-thinketh.png"
   },
   {
+    quote: `By dipping into this little book of simple Zen Buddhist sayings, you can calm your anxiety and return serenity to your soul.`,
+    name: "Shinsuke Hosokawa",
+    title: "Zen Wisdom for the Anxious",
+    img: "/book-zen-wisdom.png"
+  },
+  {
     quote: `The Stoic writings of the philosopher Seneca offer powerful insights into the art of living, the importance of reason and morality, and continue to provide profound guidance to many through their eloquence, lucidity and timeless wisdom.`,
     name: "Seneca",
     title: "On The Shortness of Life",
@@ -129,12 +135,6 @@ export const books = [
     name: "Ryan Holiday",
     title: "The Daily Stoic",
     img: "/book-the-daily-stoic.png"
-  },
-  {
-    quote: `By dipping into this little book of simple Zen Buddhist sayings, you can calm your anxiety and return serenity to your soul. `,
-    name: "Shinsuke Hosokawa",
-    title: "Zen Wisdom for the Anxious",
-    img: "/book-zen-wisdom.png"
   },
   {
     quote: `What would be possible if you followed through on your best intentions? What could you accomplish if you could stay focused and overcome distractions? What if you had the power to become "indistractable"?  `,
@@ -187,16 +187,30 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "web Developer",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    title: "Full Stack Web Developer",
+    desc: "Developed new features and performed bug-fixing for a repository platform used by over 500 Japanese universities using JavaScript and Python.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile Developer",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    className: "md:col-span-2", // change to md:col-span-2
+    title: "Front-end Web Developer",
+    desc: "Developed and maintained a data management website as well as a data-manipulation website for Netsuite GUI using JavaScript",
+    className: "md:col-span-2",
+    thumbnail: "/exp4.svg",
+  },
+  {
+    id: 3,
+    title: "Python Developer",
+    desc: "Developed automation scripts for a mobile data network device using its Python API resulting in significant decrease in operation time when performing device-related operations.",
+    className: "md:col-span-2",
+    thumbnail: "/exp3.svg",
+  },
+  {
+    id: 4,
+    title: "Data Engineer",
+    desc: "Developed scripts for cleaning data files, validation, automated reports and db-insertion.",
+    className: "md:col-span-2",
     thumbnail: "/exp2.svg",
   },
 ];
@@ -205,13 +219,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/JericFederer?tab=repositories"
   },
-  {
-    id: 2,
-    img: "/twit.svg",
-  },
+  // {
+  //   id: 2,
+  //   img: "/git.svg",
+  //   link: "https://github.com/JericFederer97?tab=repositories"
+  // },
   {
     id: 3,
     img: "/link.svg",
+    link: "https://www.linkedin.com/in/bandong-jose-enrico-aba48527a/"
   },
 ];

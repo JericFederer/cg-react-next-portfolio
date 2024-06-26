@@ -7,6 +7,9 @@ import MainTitle from "./components/MainTitle";
 import Grid from "./components/Grid";
 import RecentProjects from "./components/RecentProjects";
 import Books from "./components/Books";
+import Experience from "./components/Experience";
+import Strategy from "./components/Strategy";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
@@ -17,6 +20,9 @@ export default function Home() {
         <Grid />
         <RecentProjects />
         <Books />
+        <Experience />
+        <Strategy />
+        <Footer />
       </div>
     </main>
   )
