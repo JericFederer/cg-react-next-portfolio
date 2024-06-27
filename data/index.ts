@@ -231,4 +231,9 @@ export const socialMedia = [
     img: "/link.svg",
     link: "https://www.linkedin.com/in/bandong-jose-enrico-aba48527a/"
   },
+  {
+    id: 4,
+    img: "/insta.svg",
+    link: "https://jericfederer97.github.io/tokiochouetsu-link-tree/"
+  },
 ];
