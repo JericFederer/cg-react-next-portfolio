@@ -73,19 +73,19 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "Lorem ipsum dolor sit amet.",
-    des: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    img: "/b1.png",
-    iconLists: ["/re.svg", "/ts.svg"],
-    link: "https://github.com/JericFederer?tab=repositories",
+    title: "Movie Website UI",
+    des: "A UI website created using TypeScript, React and Material UI. Site link is available in the repo readme.",
+    img: "/jeric-movie-site.png",
+    iconLists: ["/re.svg", "/ts.svg", "/mui.svg"],
+    link: "https://github.com/JericFederer/cg-react-typescript-material-ui-movies-website/tree/main",
   },
   {
     id: 2,
-    title: "Lorem ipsum dolor sit amet.",
-    des: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    img: "/b1.png",
-    iconLists: ["/re.svg", "/ts.svg"],
-    link: "https://github.com/JericFederer?tab=repositories",
+    title: "YouTube Clone",
+    des: "A YouTube clone using RapidAPI, React and Material UI. Site link is available in the repo readme.",
+    img: "/youtube-clone.png",
+    iconLists: ["/re.svg", "/js.svg", "/mui.svg"],
+    link: "https://github.com/JericFederer97/react-youtube-clone",
   },
   {
     id: 3,
@@ -221,11 +221,11 @@ export const socialMedia = [
     img: "/git.svg",
     link: "https://github.com/JericFederer?tab=repositories"
   },
-  // {
-  //   id: 2,
-  //   img: "/git.svg",
-  //   link: "https://github.com/JericFederer97?tab=repositories"
-  // },
+  {
+    id: 2,
+    img: "/git2.svg",
+    link: "https://github.com/JericFederer97?tab=repositories"
+  },
   {
     id: 3,
     img: "/link.svg",
