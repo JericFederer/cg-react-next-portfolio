@@ -39,11 +39,21 @@ const RecentProjects = () => {
                       />
                     </div>
 
-                    <img
-                      src={ img }
-                      alt={ title }
-                      className="z-10 absolute bottom-0 h-full w-full"
-                    />
+                    {
+                      id === 3
+                      ? <img
+                          src={ img }
+                          alt={ title }
+                          className={ `${ id === 3 ? "z-10 absolute bottom-0 top-[22%] h-[50%] w-[50%]" : "z-10 absolute bottom-0 h-full w-full " }` }
+                        />
+                      : <img
+                          src={ img }
+                          alt={ title }
+                          className={ `${ id === 4 ? "z-10 absolute bottom-0 top-[24%] left-[36%] h-[50%] w-[50%]" : "z-10 absolute bottom-0 h-full w-full " }` }
+                        />
+                    }
+
+
                   </div>
 
                   <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1 text-purple">

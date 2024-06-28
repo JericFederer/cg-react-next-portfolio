@@ -18,7 +18,7 @@ const Books = () => {
           <InfiniteMovingCards
             items={ books }
             direction="right"
-            speed="slow"
+            speed="normal"
           />
         </div>
       </div>
